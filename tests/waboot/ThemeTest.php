@@ -8,10 +8,7 @@ class ThemeTest extends Waboot_TestCase{
 	public function setUp() {
 		parent::setUp();
 
-		//Loads Layout
-		require_once WBTEST_WP_CONTENT_PATH."/themes/waboot/inc/Layout.php";
-		require_once WBTEST_WP_CONTENT_PATH."/themes/waboot/inc/Theme.php";
-		require_once WBTEST_WP_CONTENT_PATH."/themes/waboot/inc/Component.php";
+		
 
 		\WP_Mock::wpFunction('locate_template',[
 			'args' => ["inc/template-functions.php"],
