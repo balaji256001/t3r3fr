@@ -65,6 +65,6 @@ class Waboot_TestCase extends \PHPUnit_Framework_TestCase {
 			'return' => "wbf"
 		]);
 
-		require_once WBTEST_WP_CONTENT_PATH."/plugins/wbf/wbf.php";
+		
 	}
 }
