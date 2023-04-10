@@ -16,7 +16,7 @@ class LayoutTest extends Waboot_TestCase{
 		parent::setUp();
 
 		//Loads Layout
-		require_once WBTEST_WP_CONTENT_PATH."/themes/waboot/inc/Layout.php";
+		
 		
 		$this->layout = Layout::getInstance();
 	}
