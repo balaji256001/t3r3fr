@@ -13,7 +13,7 @@ class WidgetAreasTest extends Waboot_TestCase{
 			'return' => true
 		]);
 		
-		require_once $this->waboot_path."/inc/template-functions.php";
+		
 	}
 
 	public function test_WidgetsCounter(){
