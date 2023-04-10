@@ -67,7 +67,7 @@ class ThemeTest extends Waboot_TestCase{
 		]);
 
 		//Loads theme functions
-		require_once WBTEST_WP_CONTENT_PATH."/themes/waboot/functions.php";
+		
 	}
 
 	/**
